@@ -1,6 +1,6 @@
 package main
 
-import "blunder/engine"
+import "github.com/algerbrex/blunder/v7/engine"
 
 func main() {
 	engine.RunCommLoop()

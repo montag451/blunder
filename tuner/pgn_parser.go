@@ -1,11 +1,12 @@
 package tuner
 
 import (
-	"blunder/engine"
 	"io/ioutil"
 	"log"
 	"regexp"
 	"strings"
+
+	"github.com/algerbrex/blunder/v7/engine"
 )
 
 // pgn.go implements a (purposely) partial pgn parser to be used in generating tuning data for Blunder.

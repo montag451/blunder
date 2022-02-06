@@ -1,13 +1,14 @@
 package extra
 
 import (
-	"blunder/engine"
 	"bufio"
 	"fmt"
 	"math"
 	"os"
 	"path/filepath"
 	"strings"
+
+	"github.com/algerbrex/blunder/v7/engine"
 )
 
 // iq.go is a program to measure Blunder's tatical strength, by trying to have it find

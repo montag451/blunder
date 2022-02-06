@@ -1,13 +1,14 @@
 package tuner
 
 import (
-	"blunder/engine"
 	"fmt"
 	"math"
 	"math/rand"
 	"os"
 	"strings"
 	"time"
+
+	"github.com/algerbrex/blunder/v7/engine"
 )
 
 // gen_data.go generates training data for the texel tuner from the PGNs of games played.
